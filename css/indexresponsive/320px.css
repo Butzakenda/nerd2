@@ -1,0 +1,78 @@
+@media (min-width:320px) and (max-width:374px) {
+    .login{
+        margin: 5px;
+    }
+    .tituloingreso{
+        font-size: 23px;
+        transition: 1s;
+    }
+    .recientes{
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: block;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 300px;
+        height: 320px;    
+        margin-bottom: 15px;
+
+        border-top: 2px solid black;
+     
+
+        /* border: 2px solid black; */
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        transition: 1s;
+    }
+    .logored > a{
+        padding: 20px;
+        transition: 1s;
+       
+    }
+    nav{
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-bottom: 15px;
+    }
+    nav > a{
+        padding: 1px;
+    }
+    p{
+        font-size: 13px;
+    }
+    #email{
+        font-size: 13px;
+    }
+    #password{
+        font-size: 13px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+    .headernews{
+        width: 100%;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .headernews > h1{
+        font-size: 31px;
+    }
+    .userinfo{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+    .productoDescription{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}

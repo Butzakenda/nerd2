@@ -1,0 +1,8 @@
+@media (min-width:2560px) {
+    .modal-content{
+        margin-left: 40%;
+    }
+    #btnmodal{
+        margin-left: 35px;
+    }
+}

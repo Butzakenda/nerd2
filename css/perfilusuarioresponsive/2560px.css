@@ -1,0 +1,158 @@
+@media (min-width:2560px) {
+    .headernews{
+        margin-left: 55px;
+        width: auto;
+    }
+   .login{
+    margin-left: 100px;
+    width: 800px;
+   }
+    .tituloingreso{
+        font-size: 28px;
+        transition: 1s;
+    }
+    .recientes{
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: block;
+        right: 0px;
+        gap: 20px;
+        transition: 1s;
+    }
+    .news{
+       margin-left: 50px;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%; 
+        margin-bottom: 15px;    
+       
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        transition: 1s;
+        margin-left: 35%;
+        margin-bottom: 60px;
+    }
+    .logored > a{
+        padding: 63px;
+        transition: 1s;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+        margin: 13px;
+        padding-bottom: 15px;
+        border-bottom: 8px solid black;
+    }
+    nav > a{
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    #email{
+        font-size: 18px;
+    }
+    #password{
+        font-size: 18px;
+    }
+    .filtros{
+        margin-top: 15px;
+        margin-right: 90px;
+    }
+    .welcomeUser{
+        margin-right: 90px;
+    }
+    
+    /* ----------------- */
+    .modal-content-ActualizarPerfil  {
+        margin-left: 35%;
+        width: 40%;
+        bottom: 20%;
+    }
+    .modal-body-ActualizarPerfil  {
+        display: block;
+    }
+    .info > input {
+        width:900px;
+        height: 15px;
+    }
+    textarea {
+        width: 1500px;
+        height: 150px;
+    }
+    .modal-item{
+        height: 33px;
+        width: 150px;
+    }
+    .pic-perfil{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    #ActualizarPerfilbtnConfirm{
+        text-align: center;
+    }
+    #ActualizarPerfilbtnConfirm > button{
+        margin-right: 55px;
+    }
+
+    /* ------------------- */
+    /* ------Modal PQR -------- */
+    
+    .modalPqrContent{
+        position: fixed;
+        bottom: 50%;
+        margin-right: 55%;
+        left: 23%;
+        width: 370px;
+        background-color: white;
+    }
+    .pqrHeader h2{
+        color: #ffff;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .pqrHeader{
+        height: 10%;
+        width: auto;
+        background-color: #7f5281;
+        padding: 15px;
+    }
+    .pqrBody{
+        padding: 15px;
+    }
+    .pqrBody > button{
+        margin-left: 30%;
+    }
+     /* -------Modal Producto---------- */
+
+     .check{
+        bottom: 45.5%;
+        margin-left: 6%;
+    }
+    .detalleProductoContent{
+        margin: 5px;
+        width: 1200px;
+        left: 24%;
+    }
+    .detalleProductoHeader{
+        display: inline-block;
+        height: 150px;
+    }
+    .userNickPic{
+        border-left: 2px solid white;
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+}

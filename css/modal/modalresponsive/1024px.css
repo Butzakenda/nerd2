@@ -1,0 +1,8 @@
+@media (min-width:1024px) and (max-width: 1025px) {
+    .modal-content{
+        margin-left: 350px;
+    }
+    #btnmodal{
+        margin-left: 35px;
+    }
+}

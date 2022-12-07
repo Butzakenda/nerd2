@@ -1,0 +1,90 @@
+@media (min-width:1440px) and (max-width: 2559px) {
+    .headernews{
+        margin-left: 55px;
+        width: auto;
+    }
+    .login{
+        margin-top: 2%;
+        margin-left: 30%;
+    }
+    .tituloingreso{
+        font-size: 30px;
+        transition: 1s;
+    }
+    .recientes{
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: flex;
+        margin-left: 55px;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 420px;
+        height: 320px;  
+        margin-left: 15px;
+        margin-bottom: 15px;    
+
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        transition: 1s;
+        margin-left: 290px;
+        margin-bottom: 60px;
+    }
+    .logored > a{
+        padding: 90px;
+        transition: 1s;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+        margin: 13px;
+        padding-bottom: 15px;
+        border-bottom: 8px solid black;
+        gap: 50px;
+    }
+    nav > a{
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    #email{
+        font-size: 18px;
+    }
+    #password{
+        font-size: 18px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+    .headernews{
+        width: 97%;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .headernews > h1{
+        font-size: 31px;
+    }
+    .userinfo{
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+    .productoDescription{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}

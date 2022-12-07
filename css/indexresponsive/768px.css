@@ -1,0 +1,83 @@
+@media (min-width:768px) and (max-width:1023px) {
+    .login{
+        margin-left: 105px;
+
+    }
+    .tituloingreso{
+        font-size: 25px;
+        transition: 1s;
+    }
+    .recientes{
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: block;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 620px;
+        height: 520px;  
+        margin-left: 10.5%;  
+        margin-bottom: 15px;    
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 105px;
+        transition: 1s;
+    }
+    .logored > a{
+        padding: 50px;
+        transition: 1s;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+        margin: 13px;
+        padding-bottom: 15px;
+        border-bottom: 8px solid black;
+        gap: 30px;
+    }
+    nav > a{
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    p{
+        font-size: 23px;
+    }
+    #email{
+        font-size: 13px;
+    }
+    #password{
+        font-size: 13px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+    .headernews{
+        width: 100%;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .headernews > h1{
+        font-size: 31px;
+    }
+    .userinfo{
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+    .productoDescription{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}

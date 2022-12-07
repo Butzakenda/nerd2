@@ -1,0 +1,166 @@
+@media (min-width:375px) and (max-width:424px) {
+    .main{
+        display: block;
+        border-top: 2px solid black;
+        padding-top: 25px;
+        position: relative;
+    }
+    .welcomeUser{
+        font-size: 28px;
+        transition: 1s;
+        margin-bottom: 30px;
+    }
+    .filtrosMedia{
+        height: 350px;
+    }
+    .recientes{
+        padding-top: 55px;
+        display: block;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 350px;
+        height: 330px;    
+        margin-bottom: 15px;    
+       
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        margin-left: 12px;
+        transition: 1s;
+    }
+    .logored > a{
+        padding: 20px;
+        transition: 1s;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+        margin-bottom: 25px;
+        border-bottom: 8px solid black;
+    }
+    nav > a{
+        padding: 0px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    .userdescription > p {
+        font-size: 22px;
+    }
+    .funcionusuario{
+        border-top: 2px solid black;
+        width: 330px;
+        height: 320px;
+        margin-left: 6px;
+        padding: 5px;
+    }
+    .filtros{
+        position: absolute;
+        top: 24%;
+        margin-right: 55px;
+        height: 350px;
+    }
+    .PQR{
+        border: 2px solid black;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 15px;
+        text-decoration: none;
+    }
+    .PQR > a{
+        text-decoration: none;
+        color: black;
+    }
+     /* ----------------- */
+     .modal-content-ActualizarPerfil  {
+        margin-left: 30px;
+        width: 310px;
+        bottom: 20%;
+    }
+    .modal-body-ActualizarPerfil  {
+        display: block;
+    }
+    .info > input {
+        width: 270px;
+        height: 15px;
+    }
+    textarea {
+        width: 310px;
+        height: 150px;
+    }
+    .modal-item{
+        height: 33px;
+        width: 150px;
+    }
+    .pic-perfil{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+    #ActualizarPerfilbtnConfirm{
+        text-align: center;
+    }
+    #ActualizarPerfilbtnConfirm > button{
+        margin-right: 55px;
+    }
+    .PQR{
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .PQR>button{
+        border: 2px solid black;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    /* ------------------- */
+    /* ------Modal PQR -------- */
+    
+    .modalPqrContent{
+        position: fixed;
+        bottom: 50%;
+        margin-right: 55%;
+        left: 3.8%;
+        width: 370px;
+        background-color: white;
+    }
+    .pqrHeader h2{
+        color: #ffff;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+    
+    .pqrHeader{
+        height: 10%;
+        width: auto;
+        background-color: #7f5281;
+        padding: 15px;
+    }
+    .pqrBody{
+        padding: 15px;
+    }
+    .pqrBody > button{
+        margin-left: 30%;
+    }
+    /* -------Modal Producto---------- */
+    .check{
+
+        bottom: 46.5%;
+        margin-left: 6%;
+    }
+    .detalleProductoContent{
+        margin: 5px;
+    }
+}

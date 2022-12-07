@@ -1,0 +1,87 @@
+@media (min-width:1024px) and (max-width: 1439px) {
+    .login{
+        margin-left: 250px;
+
+    }
+    .tituloingreso{
+        font-size: 30px;
+        transition: 1s;
+    }
+    .recientes{
+        border-top: 2px solid black;
+        padding-top: 55px;
+        display: block;
+        gap: 20px;
+        width: auto;
+        transition: 1s;
+    }
+    .boxrecientes{
+        display: grid;
+        grid-template-columns: 100%;
+        width: 720px;
+        height: 420px;  
+        margin-left: 150px;
+        margin-bottom: 15px;    
+
+        transition: 1s;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        transition: 1s;
+        margin-left: 150px;
+    }
+    .logored > a{
+        padding: 90px;
+        transition: 1s;
+       
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;   
+        margin: 13px;
+        padding-bottom: 15px;
+        border-bottom: 8px solid black;
+        gap: 40px;
+    }
+    nav > a{
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+    p{
+        font-size: 18px;
+    }
+    #email{
+        font-size: 18px;
+    }
+    #password{
+        font-size: 18px;
+    }
+    header{
+        margin-bottom: 15px;
+    }
+    .headernews{
+        padding-top: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100%;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+    .headernews > h1{
+        font-size: 31px;
+    }
+    .userinfo{
+        border-top: 2px solid black;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+    .productoDescription{
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}

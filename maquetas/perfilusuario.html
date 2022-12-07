@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/perfilusuario.css">
+    <link rel="stylesheet" href="../css/icons.css">
+    <link rel="stylesheet" href="../css/modal/PerfilUsuario/ActualizarPerfil/ActualizarPerfil.css">
+    <link rel="stylesheet" href="../css/modal/PerfilUsuario/ActualizarPerfil/ActualizarPerfilConfirm.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/2560px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/1440px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/1024px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/768px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/425px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/375px.css">
+    <link rel="stylesheet" href="../css/perfilusuarioresponsive/320px.css">
+    <link rel="stylesheet" href="../css/modalPqr.css">
+    <link rel="stylesheet" href="../css/detalleProducto.css">
+</head>
+<body>
+    <header>
+        <h1 class="header">
+            NERD
+        </h1>
+        
+        <p class="headerP">
+            Negocia
+            Emprende
+            Relaciona
+            Descubre
+        </p>
+    </header>
+    <nav>
+        <a href="">Inicio</a>
+        <a href="">Productos</a>
+        <a href="">Nosotros</a>
+        <a href="">Contáctanos</a>
+        <div class="PQR">
+            <button style="cursor: pointer;" id="pqrbutton" href="">
+                PQR
+            </button>
+        </div>
+        
+            
+       
+        
+    </nav>
+    <h2 class="welcomeUser">
+        Bienvenido, User
+    </h2>
+    <div class="main">
+        
+        <div class="funcionusuario">
+            <div class="items">
+                <div>
+                    <button class="itembtn" id="btnlogin">Actualizar Perfil</button>
+                    <div class="modal-ActualizarPerfil" id="myModal">
+                        <div class="modal-content-ActualizarPerfil ">
+                            <div class="modal-header-ActualizarPerfil ">
+                                <span class="close">&times;</span>
+                                <h2>Perfil</h2>
+                            </div>
+                            <div class="modal-body-ActualizarPerfil">
+                                <div class="info">
+                                    <input class="modal-input" type="text">
+                                    <button class="modal-item">Cambiar Nombre</button>
+                                    <input type="number" class="modal-input">
+                                    <button class="modal-item">Cambiar Número de Teléfono</button>
+                                    <input type="text" class="modal-input">
+                                    <button class="modal-item">Cambiar Correo Electrónico</button>
+                                    <textarea class="modal-input" cols="120" rows="7" name="" id=""></textarea>
+                                    <button class="modal-item">Cambiar Descripción</button>
+                                </div>
+                                <div class="pic-perfil">
+                                    <div  class="image-perfil">
+                                        <input type="file">
+                                    </div>
+                                    <button style="display: flex;" class="uploadimage-btn">Subir imagen
+                                        <label class="download-icon" for=""><span align="right" class="entypo-upload"></span></label>
+                                    </button>
+                                </div>
+                                
+                            </div>
+                            <div class="confirmActualizarPerfil">
+                                <button class="btnConfirm-ActualizarPerfil" onclick="window.ActualizarPerfilbtnConfirm.showModal();">Confirmar</button>
+                                    <dialog id="ActualizarPerfilbtnConfirm">
+                                       <h2>¡Tu Perfil ha sido actualizado!</h2>
+                                       <button class="modal-item" onclick="window.ActualizarPerfilbtnConfirm.close();">Entendido</button>
+                                    </dialog>
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    <img align="right" src="../img/pngwing.com.png" alt="">
+                </div>
+                <div>
+                    <button class="itembtn" id="desactivar">
+                        Solicitar Alianza
+                    </button>
+                    <img align="right" src="../img/5.png" alt="">
+                </div>
+                <div>
+                    <button class="itembtn" id="desactivar">
+                        Desactivar Cuenta
+                    </button>
+                    <img align="right" src="../img/3.png" alt="">
+                </div>
+                <div>                   
+                    <button class="itembtn" id="registro">
+                        Registro de Actividad
+                    </button>
+                    <img align="right" src="../img/4.png" alt="">
+                </div>  
+            </div>    
+        </div>
+            
+            <div class="recientes">
+                
+                <label align="right" style="border:2px solid black ; border-radius: 5px;padding: 3px; background-color: white;" for="">
+                    <span class="entypo-search"></span>
+                    <input style="border-radius: 0px; width: auto; border: 0;" placeholder="Buscar" type="search">
+                </label>
+                <br><br>
+                <div class="filtrosMedia"></div>
+                <div class="boxrecientes">
+                    <div class="userinfo" style="display: inline;">
+                        <div class="userdescription">
+                            <p>
+                            <img align="left" src="../img/profilepic.png" alt="" class="userpic">
+                            Here will be a name
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit fugit est cum quas. Doloremque dolores harum quia suscipit, accusantium fuga voluptates placeat nobis numquam temporibus cumque laborum voluptatibus perferendis odit.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="productoDescription">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus culpa rerum doloribus ipsam eum cumque necessitatibus blanditiis illum aliquam reprehenderit ullam non, dolore, atque ipsum quam maxime esse.
+                        </p>
+                        <div>
+                            <button id="verProductoBtn" class="btnProducto">Ver</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrecientes">
+                    <div class="userinfo" style="display: inline;">
+                        <div class="userdescription">
+                            <p>
+                            <img align="left" src="../img/profilepic.png" alt="" class="userpic">
+                            Here will be a name
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic excepturi earum neque corrupti id quaerat facere a minus saepe repellendus molestiae, natus optio quae delectus praesentium quo, corporis maxime incidunt?
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class="productoDescription">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus culpa rerum doloribus ipsam eum cumque necessitatibus blanditiis illum aliquam reprehenderit ullam non, dolore, atque ipsum quam maxime esse.
+                        </p>
+                        <div>
+                            <button id="verProductoBtn2" class="btnProducto">Ver</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="boxrecientes">
+                    <div class="userinfo" style="display: inline;">
+                        <div class="userdescription">
+                            <p>
+                            <img align="left" src="../img/profilepic.png" alt="" class="userpic">
+                            Here will be a name
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur accusamus quod porro error dolore quis omnis, similique, ea enim voluptatem repudiandae iure iusto eaque. Neque illum quod quisquam dicta recusandae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="productoDescription">
+                        <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus culpa rerum doloribus ipsam eum cumque necessitatibus blanditiis illum aliquam reprehenderit ullam non, dolore, atque ipsum quam maxime esse.
+                        </p>
+                        <div>
+                            <button id="verProductoBtn3" class="btnProducto">Ver</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="detalleProducto">
+                <div class="detalleProductoContent">
+                    <div class="detalleProductoHeader">
+                            
+                        <div class="userDescripcion">
+                            <button id="closeDetalleProducto">&times;</button>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, esse sapiente. Ad facere saepe voluptate, accusamus eligendi, exercitationem earum distinctio nihil excepturi et veritatis? Dolorem reprehenderit magnam optio totam quis!                   
+                            </p>
+                        </div>
+                        <div class="userNickPic">
+                            <p> 
+                                Here will be a name
+                                <br>
+                                <img align="right" src="../img/profilepic.png" alt="" class="userpic">
+                            </p>
+                            
+                        </div>
+                        <div class="check">
+                            <label class="switch">
+                                <input type="checkbox">
+                                <div class="slider round"></div>
+                            </label>
+                        </div>
+                        
+                    </div>
+                    <div class="detalleProductoBody">
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consectetur officia neque totam molestias, suscipit sed autem vel alias harum tempora. Alias ut saepe reprehenderit consequatur earum omnis repudiandae voluptatem.
+                            
+                        </p>
+                    </div>
+                </div>
+               
+            </div>  
+            <div class="filtros">
+                <div class="header-filtros">
+                    <h1 style="text-align: center;">Filtros</h1>
+                </div>
+                <div class="filtroPrecio">
+                    <div class="precioMinimo">
+                        <h2>
+                            Ingrese el valor Mínimo deseado
+                        </h2>
+                        <p><input type="range" min="5000" max="1200000" step="1000" value="5000"><label>5000</label></p>
+                    </div>
+                    <div class="precioMaximo">
+                        <h2>
+                            Ingrese el valor Máximo deseado
+                        </h2>
+                        <p><input type="range" min="5000" max="1200000" step="1000" value="5000"><label>5000</label></p>
+                    </div>
+                </div>
+            </div>
+        <div id="modalPqr">
+            <div class="modalPqrContent">
+                <div class="pqrHeader">
+                    <div class="pqrHeaderContent">
+                        <button id="closePqr">&times;</button>
+                    </div>
+                    <h2>PQR</h2>
+                </div>
+                
+                <div class="pqrBody">
+                    <h2>Asunto <select name="" id="">
+                        <option value="">Elija una opción</option>
+                        <option value="">Petición</option>
+                        <option value="">Queja</option>
+                        <option value="">Recomendación</option>
+                        <option value="">Solicitud</option>
+                    </select></h2>
+                    <h2>Descripción</h2>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <br>
+                    <button id="pqrEnviarBtn" class="itembtn">Enviar</button>
+                    <div id="dialogPqr">
+                        <div class="dialogPqrContent">
+                            <h2>!Mensaje enviado!</h2>
+                            <p>
+                                Pronto te enviaremos una respuesta. Puedes revisar toda
+                                la actividad relacionada en el Registro de Actividad
+                            </p>
+                            <button id="closeEnviarPqr" class="itembtn">Entendido</button>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+        
+        <script>
+            for( input of document.querySelectorAll("input[type=range]")){
+            actualizarInput(input) 
+            }
+
+            document.addEventListener("input", function(evt) {
+               var input = evt.target;
+               actualizarInput(input)
+            });
+
+            function actualizarInput(input){
+               var label = input.parentElement.querySelector("label");
+               label.innerHTML = input.value;
+               var inputMin = input.getAttribute("min");
+               var inputMax = input.getAttribute("max");
+               var unidad = (inputMax - inputMin) / 100;
+               input.style.setProperty("--value", (input.value - inputMin)/unidad);  
+            }
+        </script>
+        <script>
+            // Modal que aparece cuando se da clic en el botón actualizar perfil
+            var modal = document.getElementById("myModal");
+            
+            // Get the button that opens the modal
+            var btn = document.getElementById("btnlogin");
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks the button, open the modal 
+            btn.onclick = function() {
+              modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() {
+              modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+              if (event.target == modal) {
+                modal.style.display = "none";
+              }
+            }
+        </script>
+        <script>
+            /* Modal que aparece cuando se hace clic en el botón PQR del menú */
+            var pqrBtn = document.getElementById("pqrbutton");
+            var pqrModal = document.getElementById("modalPqr");
+            var cierrePqr = document.getElementById("closePqr");
+            pqrBtn.onclick = function(){
+                pqrModal.style.display = "block";
+            }
+            window.onclick = function(event) {
+              if (event.target == pqrModal) {
+                pqrModal.style.display = "none";
+              }
+            }
+            cierrePqr.onclick = function(){
+                pqrModal.style.display = "none";
+            }
+        </script>
+        <script>
+            /* Modal que aparece cuando se envía un PQR */
+            var pqrBtnEnviar = document.getElementById("pqrEnviarBtn")
+            var modalPqrEnviar = document.getElementById("dialogPqr")
+            var cierrePqrEnviar = document.getElementById("closeEnviarPqr")
+            var pqrModal = document.getElementById("modalPqr");     
+            pqrBtnEnviar.onclick = function(){
+                modalPqrEnviar.style.display = "block";
+            }
+            window.onclick = function(){
+                if (event.target == modalPqrEnviar){
+                    modalPqrEnviar.style.display = "none";
+                }
+            }
+            cierrePqrEnviar.onclick = function () {
+                modalPqrEnviar.style.display = "none";
+                pqrModal.style.display = "none"
+            }
+        </script>
+        <script>
+            var productoModal = document.getElementById("detalleProducto")
+            var detalleBtn = document.getElementById("verProductoBtn2")
+            var cierreDetalle = document.getElementById("closeDetalleProducto")
+            detalleBtn.onclick = function (){
+                productoModal.style.display = "block";
+            }
+            window.onclick = function (){
+                if (event.target == productoModal){
+                    productoModal.style.display = "none";
+                }
+            }
+            cierreDetalle.onclick = function(){
+                productoModal.style.display = "none";
+            }
+        </script>
+        <script>
+            var productoModal = document.getElementById("detalleProducto")
+            var detalleBtn = document.getElementById("verProductoBtn3")
+            var cierreDetalle = document.getElementById("closeDetalleProducto")
+            detalleBtn.onclick = function (){
+                productoModal.style.display = "block";
+            }
+            window.onclick = function (){
+                if (event.target == productoModal){
+                    productoModal.style.display = "none";
+                }
+            }
+            cierreDetalle.onclick = function(){
+                productoModal.style.display = "none";
+            }
+        </script>
+        <script>
+            var productoModal = document.getElementById("detalleProducto")
+            var detalleBtn = document.getElementById("verProductoBtn3")
+            var cierreDetalle = document.getElementById("closeDetalleProducto")
+            detalleBtn.onclick = function (){
+                productoModal.style.display = "block";
+            }
+            window.onclick = function (){
+                if (event.target == productoModal){
+                    productoModal.style.display = "none";
+                }
+            }
+            cierreDetalle.onclick = function(){
+                productoModal.style.display = "none";
+            }
+        </script>
+</body>
+</html>

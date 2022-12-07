@@ -1,0 +1,200 @@
+.main{
+    display: grid;
+    grid-template-columns: 30% 60% 10%;
+}
+body{
+    font-family: 'Inter' sans-serif;
+    background-color: #ffccdd;
+}
+.funcionusuario{
+    display: flex;
+    padding: 20px;
+    border: 2px solid black;
+    width: 250px;
+    height: 300px;
+    margin-left: 20px;
+    background-color: #7f5281 ;
+}
+.itembtn{
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px;
+}
+.modal-item{
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px;
+}
+.items > div{
+    margin-bottom: 25px;
+}
+img {
+    height: 50px;
+    margin-left: 40px;
+}
+.info{
+    display: grid;
+    margin-top: 10px;
+}
+.info > input{
+    width: 600px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.info> textarea{
+    min-width: 600px;
+    max-height: 200px;
+    margin-bottom: 15px;
+}
+
+.modal-item{
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+.pic-perfil{
+    margin-left: 155px;
+    width: 250px;
+    /* border: 2px solid black; */
+}
+.image-perfil{
+    border: 2px solid black;
+    height: 250px;
+    width: auto;
+}
+.download-icon > span{
+    font-size: 25px;
+    margin-left: 5px;
+}
+.uploadimage-btn{
+    margin-top: 20px;
+    margin-left: 25%;
+    cursor: pointer;
+    text-align: center;
+    width: auto;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px;
+}
+.userpic{
+    margin: 0px;
+}
+.confirmarbtn{
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.confirmActualizarPerfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.btnConfirm-ActualizarPerfil{
+    margin: 5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px;
+}
+#ActualizarPerfilbtnConfirm{
+    border-radius: 10px;
+}
+#ActualizarPerfilbtnConfirm > button{
+    margin-top:10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+textarea{
+    resize: none;
+}
+dialog::backdrop {
+    background: rgba(128, 128, 128, 0.786);
+}
+.filtros{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    position: fixed;
+    right: 0;
+}
+.header-filtros{
+    background-color: #7F5281;
+    border-bottom: 2px solid black;
+    color: white;
+}
+.PQR{
+    border: 2px solid black;
+}
+.btnProducto{
+    position: absolute;
+    margin-bottom: 0px;
+    height:20px;
+    width: 100px;
+    cursor: pointer;
+    box-shadow: 1px  1px 1px 1px;
+}
+
+/* ----------- */
+
+.recientes{
+    padding-top: 55px;
+    display: block;
+    gap: 15px;
+    width: 1600px;
+}
+.boxrecientes{
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 15px;
+    width: 900px;
+    height: 450px;  
+    border-left: 2px solid black;
+        border-right: 2px solid black;
+        border-top: 2px solid black;
+        border-radius: 0px 0px 10px 10px;  
+}
+.userpic{
+    width: 50px;
+    height: 50px;
+}
+.userinfo{
+    width: auto;
+    height: auto;
+    display: inline;
+    background-color: #7f5281;
+    color: rgba(255, 255, 255, 0.765);
+}
+.username{
+    font-size: 12px;
+}
+.userdescription{
+    display: inline;
+}
+.userdescription > p{
+    text-align: justify;
+}
+.productoDescription{
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    border-radius: 0px 0px 10px 10px;
+}
+.productoDescription > button{
+    position: relative;
+    top: 40%;
+    left: 82%;
+    z-index: 100;
+}
+.filtros{
+    border: 2px solid  black;
+    width: 250px;
+}
+.filtros{
+    background-color: white;
+}
+#pqrbutton{
+    border: none;
+    background-color: white;
+}
